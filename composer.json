@@ -1,0 +1,22 @@
+{
+    "name": "webup/laravel-push",
+    "description": "Bridge between a Laravel application and a webup/push instance",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.2",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Webup\\LaravelPush\\": "src/"
+        }
+    },    
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webup\\LaravelPush\\PushServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
