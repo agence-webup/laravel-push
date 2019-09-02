@@ -40,7 +40,7 @@ class PushRepository
         $json = [
             'uuids' => $uuids,
             'text' => $message,
-            'title' => "3&+",
+            'title' => config('services.push_api.app_name'),
         ];
         if ($data) {
             $json['custom'] = $data;

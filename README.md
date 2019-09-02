@@ -22,6 +22,7 @@ Please note _webup/push_ listens on port `3000` by default.
 ```php
 'push_api' => [
         'base_uri' => env('PUSH_API_BASE_URI'),
+        'app_name' => env('PUSH_API_APP_NAME')
     ]
 ```
 
