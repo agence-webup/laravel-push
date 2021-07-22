@@ -1,6 +1,6 @@
 <?php
 
-namespace Webup\LaravelPush\Jobs\Push;
+namespace Webup\LaravelPush\Jobs\Token;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Foundation\Bus\Dispatchable;
